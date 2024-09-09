@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>The First To-Do List</title>
+  </head>
+
+  <body>
+    <label for="item">Enter your item here: </label>
+    <input type="text" id="item_input" name="item_input"><br><br>
+    <button type="button" onclick="myFunction()">submit!</button>
+    <script>
+        function myFunction() {
+            document.getElementById("todo_List").innerHTML += document.getElementById("item_input").value + "<br>";
+        }
+        console.log("submit button clicked");
+    </script>
+    <p id="todo_List"></p>
+  </body>
+</html>
