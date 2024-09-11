@@ -1,0 +1,1 @@
+".div" is a shortcut for "<div class="divname"></div>"
