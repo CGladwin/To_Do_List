@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand",Helvetica,sans-serif;
+    font-weight: 550;
+    box-sizing: border-box; 
+    /* color:rgba(181,180,178,1) */
+}
+
+.background{
+    color: rgb(232, 230, 227);
+    background: linear-gradient(135deg,rgba(40,40,40,1),black);
+    width: 100%;
+    min-height: 100vh;
+    padding: 1px;
+}
+
+.row h1{
+    display: flex;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+    max-width: 540px;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}

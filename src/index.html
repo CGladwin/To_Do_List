@@ -1,0 +1,30 @@
+<!-- TODO -->
+<!-- add click anywhere to add to bottom of list -->
+<!-- add ability to create subbullet under, cross out, and remove list items -->
+<!-- this can be buttons at first, but it should resemble a text editor in the end -->
+<!-- can conceptualize the final result as a tree, where sibling items are horiontal and share the same parent and the root node is the container of all the items -->
+<!-- add ability to view removed list items -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>The Second To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="background">
+      <div class="row">
+        <h1>To Do List: Phase 2</h1>
+        <input type="text" id="item_input" placeholder="enter your text">
+        <button type="button" onclick="myFunction()">submit!</button>
+        <ul id="todo_List"></ul>
+      </div>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
